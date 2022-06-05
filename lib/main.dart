@@ -9,7 +9,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -78,13 +77,6 @@ class _MyHomePageState extends State<MyHomePage> {
             ],
           ),
         ],
-        //subtitle: Text( "${article.commentsCount} comments"),
-        //onTap: () async {
-        //  final fakeUri = Uri.parse("https://${article.domain}"); // somehting
-        //  if (await canLaunchUrl(fakeUri)) {
-        //    launchUrl(fakeUri);
-        //  }
-        //},
       ),
     );
   }
